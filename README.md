@@ -1,5 +1,5 @@
 # object-oriented-C++
-Projects of object oriented C++ done during the course 
+object oriented C++ projects  done during the course 
 
 Course Description:
 
