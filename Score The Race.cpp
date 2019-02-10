@@ -76,8 +76,5 @@ bool valid (string results){
     if (a[j] == a[j-1]) counter++;
   }
   if (counter > results.size()) validity = false;
- 
- 
- 
   return validity;
 }
