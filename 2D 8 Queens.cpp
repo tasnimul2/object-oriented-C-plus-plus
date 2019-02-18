@@ -1,5 +1,4 @@
-//Mohammed Chowdhury
-//CS 211 - 22
+
 //Assignment #4 - 2D Eight Queens
 
 #include <iostream>
