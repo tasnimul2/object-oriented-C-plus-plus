@@ -37,5 +37,7 @@ otherwise.
 
 ![alt text](https://i.imgur.com/KLPk5Ir.png?1)
 
+      2D 8 QUEENS 
+![alt text](https://i.imgur.com/4oLFdWW.png)
 
 
