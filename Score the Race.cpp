@@ -1,5 +1,4 @@
 //Mohammed Chowdhury
-//CSCI 211-22
 //Assignment #3 - Score the Race 
 
 
