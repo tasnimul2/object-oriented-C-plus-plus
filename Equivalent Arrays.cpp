@@ -1,6 +1,6 @@
 //Mohammed Chowdhury
 // CS 211 - 22C
-// HW#2 - Equivalent arrays
+// Assignment #2 - Equivalent arrays
 
 /** write a function bool equivalent(int a[], int b[], int n) which takes two arrays a and b of
 length n and returns true is they are shift equivalent and false otherwise.**/
