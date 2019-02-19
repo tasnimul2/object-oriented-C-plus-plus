@@ -1,5 +1,5 @@
 
-//Assignment #4 - 2D Eight Queens
+//Assignment #4 - 2D 8 Queens
 
 #include <iostream>
 using namespace std;
