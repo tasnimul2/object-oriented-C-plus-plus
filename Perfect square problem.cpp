@@ -1,5 +1,5 @@
-/**Write a program to find and print the first perfect square (i*i) whose last two digits are both odd.
-Very important: Make sure to check that the answer you get is indeed a perfect square. **/
+
+//Assignment #1 - Perfect Square
 
 #include <iostream>
 
