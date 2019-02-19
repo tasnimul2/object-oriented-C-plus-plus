@@ -39,5 +39,7 @@ otherwise.
 
       2D 8 QUEENS 
 ![alt text](https://i.imgur.com/4oLFdWW.png)
-
+      
+      EQUIVALENT ARRAY 2.0
+ ![alt text](https://i.imgur.com/bV3C19Z.png)     
 
