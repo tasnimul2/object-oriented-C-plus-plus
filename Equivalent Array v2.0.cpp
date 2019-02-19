@@ -1,5 +1,5 @@
 
-//Assignment #5 - Equivalent Arrays 2.0
+//Assignment #5 - Equivalent Arrays 2.0 (Updated version)
 
 
 #include <iostream>
