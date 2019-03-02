@@ -43,3 +43,5 @@ otherwise.
       EQUIVALENT ARRAY 2.0
  ![alt text](https://i.imgur.com/bV3C19Z.png)     
 
+      1D 8 Queens V1.0
+Redo the 2D 8 queens problems using a 1D array instead of a 2D array.
