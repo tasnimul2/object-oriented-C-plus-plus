@@ -8,13 +8,13 @@ Object-oriented algorithmic problem solving in C++, with attention to general as
 
   ..............................................................![alt text](https://www.freeiconspng.com/uploads/c--logo-icon-1.png).............................................................................
 
-       PERFECT SQUARE PROBLEM
+       ASSIGNMENT # 1 - PERFECT SQUARE PROBLEM
 Write a program to find and print the first perfect square (i*i) whose last two digits are both odd.
 
 Very important:
 Make sure to check that the answer you get is indeed a perfect square.
 
-      EQUIVALENT ARRAYS
+      ASSIGNMENT # 2 - EQUIVALENT ARRAYS
 a[] = {1,2,3,4,5}
 b[] = {3,4,5,1,2}
 
@@ -33,15 +33,15 @@ bool equivalent(int a[], int b[], int n)
 which takes two arrays a and b of length n and returns true is they are shift equivalent and false
 otherwise.   
 
-      SCORE THE RACE
+      ASSIGNMENT # 3 - SCORE THE RACE
 
 ![alt text](https://i.imgur.com/KLPk5Ir.png?1)
 
-      2D 8 QUEENS 
+      ASSIGNMENT # 4 - 2D 8 QUEENS 
 ![alt text](https://i.imgur.com/4oLFdWW.png)
       
-      EQUIVALENT ARRAY 2.0
+      ASSIGNMENT # 5 - EQUIVALENT ARRAY 2.0
  ![alt text](https://i.imgur.com/bV3C19Z.png)     
 
-      1D 8 Queens V1.0
+      ASSIGNMENT # 6 - 1D 8 Queens V1.0
 Redo the 2D 8 queens problems using a 1D array instead of a 2D array.
