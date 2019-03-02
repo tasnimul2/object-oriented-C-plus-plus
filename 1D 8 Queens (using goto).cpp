@@ -1,3 +1,5 @@
+//Assignment #6
+
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -30,16 +32,10 @@ for (int i=0;i<c; i++){
 
 goto next_col;
 
-
-
-
 backtrack:
 --c; // go back to the previous column.
 if (c == -1) return 0; //all the solutions were found, so end program.
 goto next_row;
-
-
-
 
 
 print:
