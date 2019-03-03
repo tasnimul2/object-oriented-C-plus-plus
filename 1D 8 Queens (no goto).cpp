@@ -1,7 +1,5 @@
-//Mohammed Chowdhury
-//Assignment #7
-//CS211 -22
 
+//Assignment #7
 
 #include <iostream>
 #include <cmath>
@@ -38,10 +36,10 @@ int main() {
       // Otherwise, call the ok function. If it returns
       //true, go back to the beginning of the outer loop.
       else if (ok(q,c)) break;
-      }
-      }
+    }
+  }
       return 0;
-      }
+}
 
 
 /* ------------------- FUNCTIONS-------------------*/
