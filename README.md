@@ -45,3 +45,8 @@ otherwise.
 
       ASSIGNMENT # 6 - 1D 8 Queens V1.0
 Redo the 2D 8 queens problems using a 1D array instead of a 2D array.
+
+      ASSIGNMENT #  - 1D 8 Queens V2.0
+ ![alt text](https://i.imgur.com/kBip7aI.png)   
+ 
+
