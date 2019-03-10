@@ -51,4 +51,9 @@ Redo the 2D 8 queens problems using a 1D array instead of a 2D array.
  
       ASSIGNMENT # 8 - 8 Numbers In A Cross
  ![alt text](https://i.imgur.com/bQc8yQW.png) 
+ 
+      ASSIGNMENT # 9 - Stable Marriage
+ ![alt text](https://i.imgur.com/2DYhhpY.png)
+ ![alt text](https://i.imgur.com/NLKkCVw.png) 
+      
 
