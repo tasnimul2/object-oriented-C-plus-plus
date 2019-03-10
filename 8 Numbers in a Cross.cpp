@@ -11,7 +11,6 @@ void backtrack(int& col);
 
 
 int main() {
-	//use the same 1d 8 queens main function
   int q[8] = {};
   int c = 0;
   q[0]=1;
