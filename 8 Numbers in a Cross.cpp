@@ -55,7 +55,7 @@ bool ok(int q[], int col) {
   
   //consecutive  number test 
   for (int i = 0; checkList[col][i] != -1; ++i){
-    if ( abs(q[col]- q[checkList[col][i]]) == 1) return false;
+    if ( abs(q[col]- q[checkList[col][i]]) == 1) return false; //if difference between current element and neighbor element is 1, return false. 
   }
   return true;
 
