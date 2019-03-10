@@ -49,4 +49,6 @@ Redo the 2D 8 queens problems using a 1D array instead of a 2D array.
       ASSIGNMENT # 7 - 1D 8 Queens V2.0
  ![alt text](https://i.imgur.com/kBip7aI.png)   
  
+      ASSIGNMENT # 8 - 8 Numbers In A Cross
+ ![alt text](https://i.imgur.com/bQc8yQW.png) 
 
