@@ -63,7 +63,6 @@ void print(int q[]){
   cout << "\n";
 }
 
-
 void backtrack (int &c){
   --c;
   if (c == -1) exit(0);
