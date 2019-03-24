@@ -56,4 +56,10 @@ Redo the 2D 8 queens problems using a 1D array instead of a 2D array.
  ![alt text](https://i.imgur.com/2DYhhpY.png)
  ![alt text](https://i.imgur.com/NLKkCVw.png) 
       
+       ASSIGNMENT # 10 - Understading Arrays as Pointers 
+ ![alt text](https://i.imgur.com/BD0U2ls.png)
+    
+       ASSIGNMENT # 11 - Fancy Eight Queens
+ ![alt text](https://i.imgur.com/J7ti17N.png)
+  
 
