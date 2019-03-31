@@ -61,5 +61,12 @@ Redo the 2D 8 queens problems using a 1D array instead of a 2D array.
     
        ASSIGNMENT # 11 - Fancy Eight Queens
  ![alt text](https://i.imgur.com/J7ti17N.png)
+ 
+       ASSIGNMENT # Practice  - Integration
+  Inside a loop we sum up the area of rectangles with a small base (say .0001) and
+  height f(x) for each x between a and b in increments of .0001. a = 1 b=5. Find 
+  the integral when f(x) = x, f(x) = x^2 and f(x) = x^3 between 1 and 5. 
+  
+  When the loop terminates, we return the value of the sum.
   
 
