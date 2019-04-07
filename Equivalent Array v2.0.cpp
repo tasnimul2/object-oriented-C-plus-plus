@@ -6,11 +6,10 @@
 using namespace std;
 
 
+bool equivalent (int a[],int  b[], int n);
 
-bool equivalent(int a[], int b[], int n);
-bool CompareArray(int a[], int b[], int n, int SpacesMoved);
 
-int main() {
+int main(){
    cout << boolalpha; // to print bool values as true/false instead of 1/0
 
    int a1[5] = {1, 2, 3, 4, 5};
@@ -40,19 +39,16 @@ int main() {
 
    return 0;
 }
-bool CompareArray(int a[], int b[], int n, int SpacesMoved) {
-   for (int i = 0; i < n; i++){
-      if (a[i] != b[(i+SpacesMoved) % n])// % n to loop back to the beginning of the array
-         return false;
-   }
-   return true;
-
-}
-
-bool equivalent(int a[], int b[], int n) {
-   for (int SpacesMoved = 0; SpacesMoved < n; SpacesMoved++){ //counts the amount of spaces moved
-      if (CompareArray(a, b, n, SpacesMoved))  //Shift the array SpacesMoved amount of spots to see if array A and B match.
-         return true;
-   }
-   return false;
+bool equivalent (int a[],int  b[], int n){
+  int offset;
+  for (int i = 0; i < n; i++)
+    if (a[0] == b[i]) offset = i; //when it finds the offset, it sets that value to k;
+    for (int j = 1; j <n; j++){
+      if (a[j] != b[(j+offset)%n]) break; // %n is used to loop back to the begninning.  . Ex if size of array is 5:
+                                     //1%5 = 1, 2%5 = 2 .... 4%5 = 4 and when it reaches outside the array
+                                     //5%5 = 0, when goes back to the begenning.
+      if (j == (n-1)) return true; // when loop reaches to the last number in the array without breking,
+                                  // return true because  the array are equibalent.
+    }
+    return false;
 }
