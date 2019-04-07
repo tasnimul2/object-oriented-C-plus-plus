@@ -42,7 +42,7 @@ int main(){
 bool equivalent (int a[],int  b[], int n){
   int offset;
   for (int i = 0; i < n; i++)
-    if (a[0] == b[i]) offset = i; //when it finds the offset, it sets that value to k;
+    if (a[0] == b[i]) offset = i; //when it finds the offset, it sets that value to offset;
     for (int j = 1; j <n; j++){
       if (a[j] != b[(j+offset)%n]) break; // %n is used to loop back to the begninning.  . Ex if size of array is 5:
                                      //1%5 = 1, 2%5 = 2 .... 4%5 = 4 and when it reaches outside the array
