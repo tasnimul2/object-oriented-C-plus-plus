@@ -29,17 +29,17 @@ int main() {
       t[from].pop_back();
 
       // from = the index of the tower with the smallest ring that has not just been moved: (to+1)%3 or (to+2)%3
-      if ()
-         from = _____
+      if (t[(to+1) % 3].back() < t[(to+2) % 3].back())
+         from = (to+1) % 3
       else
-         from = _____
+         from = (to+2) % 3
 
       // candidate = the ring on top of the t[from] tower
       candidate = t[from].back();
 
       // to = the index of the closest tower on which the candidate can be placed: (from+1)%3 or (from+2)%3
       // (compare the candidate with the ring on the closer tower; which tower is "closer" depends on whether n is odd or even)
-      if (_____)
+      if (t[(from+to % 3].back() > candidate)
          to = _____
       else
          to = _____
