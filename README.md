@@ -72,4 +72,9 @@ Redo the 2D 8 queens problems using a 1D array instead of a 2D array.
        ASSIGNMENT # 12 - N- Queens
   ![alt text](https://i.imgur.com/q9wJl39.png)
   
+       ASSIGNMENT # 13 - Towers Of Hanoi
+  ![alt text](https://i.imgur.com/rNtd1BD.png)
+  ![alt text](https://i.imgur.com/KoxEX03.png)
+     
+  
 
