@@ -1,3 +1,6 @@
+//Mohammed Chowdhury
+//cs 211 - 22C
+//Assignment # 13
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -10,8 +13,10 @@ int main() {
    cout << endl;
    // The initial value of "to" depends on whether n is odd or even
    int from = 0, to , candidate = 1, move = 0;
-   if (n%2 == 0) to = (from + 2)  %3; // if n is even, go left
-   if (n%2 != 0) to = (from +1) %3; //if n is odd, go right
+
+   if (n%2 == 0) to = (from +2) %3;// if n is even, go left
+   else to = (from +1) %3; //if n is odd, go right
+
 
 
    // Initialize the towers
@@ -25,26 +30,34 @@ int main() {
 
       // Move the ring from the "from tower" to the "to tower" (first copy it, then delete it from the "from tower")
 
-      t[to].push_back(t[from].back());
-      t[from].pop_back();
+      t[to].push_back(t[from].back()); //take the top ring from "from" tower and puts in on "to" tower
+      t[from].pop_back();//deletes that ring from the "from" tower after transferring it.
 
       // from = the index of the tower with the smallest ring that has not just been moved: (to+1)%3 or (to+2)%3
+
       if (t[(to+1) % 3].back() < t[(to+2) % 3].back())
-         from = (to+1) % 3
+         from = (to+1) % 3;
       else
-         from = (to+2) % 3
+         from = (to+2) % 3;
 
       // candidate = the ring on top of the t[from] tower
       candidate = t[from].back();
 
       // to = the index of the closest tower on which the candidate can be placed: (from+1)%3 or (from+2)%3
       // (compare the candidate with the ring on the closer tower; which tower is "closer" depends on whether n is odd or even)
-      if (t[(from+to % 3].back() > candidate)
-         to = _____
+      if ((n%2) !=0) {
+        if (t[(from+1) % 3].back() > candidate)
+          to = (from+1)%3;
+        else
+          to = (from+2)%3;
+      }
       else
-         to = _____
-         
-   }
+      if(t[(from+2) % 3].back() > candidate)
+          to = (from+2) % 3;
+      else
+          to = (from+1) % 3;
+
+ }
 
    return 0;
 }
