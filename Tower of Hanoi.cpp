@@ -21,9 +21,9 @@ int main() {
 
    // Initialize the towers
    for(int i = n + 1; i >= 1; --i)
-   t[0].push_back(i);
-   t[1].push_back(n+1);
-   t[2].push_back(n+1);
+   t[0].push_back(i); // puts all the n + 1 rings on tower 0
+   t[1].push_back(n+1); //puts the 1 bigger than biggest ring  in tower 1
+   t[2].push_back(n+1); // puts the  1 bigger than biggest ring in tower 2 as well. 
 
    while (t[1].size() < n+1) { // while t[1] does not contain all of the rings
       cout << "Move #" << ++move << ": Transfer ring " << candidate << " from tower " << char(from+'A') << " to tower " << char(to+'A') << "\n";
