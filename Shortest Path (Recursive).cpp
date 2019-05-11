@@ -32,7 +32,7 @@ int calculateCost(int i, int j) {
    int left = calculateCost(i%NUM_ROWS ,j-1);
    int down = calculateCost((i+1)%NUM_ROWS, j-1);
    // Find the minimum of the 3 costs.
-   int minCost = min(min(up, down),left); //min funtion from iostream library compares up and down and returns x.
+   int minCost = min(min(up, down),left); //min funtion from algorithm library compares up and down and returns x.
                                           //Then compares x to left and returns the smallest cost between up down and left.
 
    // Update the path matrix (store the path to the current square in path[i][j]):
