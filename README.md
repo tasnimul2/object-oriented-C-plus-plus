@@ -76,8 +76,12 @@ Redo the 2D 8 queens problems using a 1D array instead of a 2D array.
   ![alt text](https://i.imgur.com/rNtd1BD.png)
   ![alt text](https://i.imgur.com/KoxEX03.png)
   
-       ASSIGNMENT #14  - (RECURSIVE + NON-RECURSIVE) SHORTEST PATHS
+       ASSIGNMENT # 14  - (RECURSIVE + NON-RECURSIVE) SHORTEST PATHS
   ![alt text](https://i.imgur.com/OSffU7u.png)
      
-  
+       ASSIGNMENT # 15 - RAT class
+  ![alt text](https://i.imgur.com/uONTthi.png)
+       
+      ASSIGNMENT # Extra Credit - K-Bishops
+  ![alt text](https://i.imgur.com/qgIiCvZ.png)
 
