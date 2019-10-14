@@ -11,7 +11,7 @@ Object-oriented algorithmic problem solving in C++, with attention to general as
 ### ASSIGNMENT # 1 - PERFECT SQUARE PROBLEM
 Write a program to find and print the first perfect square (i*i) whose last two digits are both odd.
 
-Very important:
+###### Very important:
 Make sure to check that the answer you get is indeed a perfect square.
 
 ### ASSIGNMENT # 2 - EQUIVALENT ARRAYS
